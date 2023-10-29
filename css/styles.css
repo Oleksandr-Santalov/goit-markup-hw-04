@@ -67,6 +67,7 @@ body {
 .page-header {
   border-bottom: 1px solid #e7e9fc;
   background: #fff;
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 .header-container {
   display: flex;
@@ -102,13 +103,17 @@ body {
   padding: 24px 0;
 }
 .menu-link {
-  color: #2e2f42;
+  /* color: #2e2f42; */
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
   padding: 24px 0;
+
+  position: relative;
+  color: #404bbf;
+   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .contact {
   font-style: normal;
@@ -125,6 +130,8 @@ body {
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
+
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
 .contact-list-link:hover,
 .contact-list-link:focus {

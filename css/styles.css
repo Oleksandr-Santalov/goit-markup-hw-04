@@ -99,9 +99,9 @@ body {
   color: #2e2f42;
 }
 
-.contact-list-item {
+/* .contact-list-item {
   padding: 24px 0;
-}
+} */
 /* .menu-item{
   position: relative;
   color: #404bbf;
@@ -119,8 +119,8 @@ body {
   /* position: relative;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     color: #404bbf; */
-  /* position: relative;
-  display: block; */
+  position: relative;
+  display: block;
         }
 .current {
  position: relative;
@@ -136,7 +136,7 @@ body {
  background-color: #404bbf; 
  border-radius: 2px;
 
- width: 48px;
+ width: 100%;
 }
 .contact {
   font-style: normal;

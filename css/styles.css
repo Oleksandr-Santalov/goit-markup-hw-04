@@ -139,12 +139,16 @@ body {
 .hero {
   background-color: #2e2f42;
   padding: 188px 0;
-  background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero-background.jpg);
-max-width: 1440px; 
-background-repeat: no-repeat;
-background-position: center; 
- background-size: cover;
- margin: 0 auto;
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/hero-background.jpg);
+  max-width: 1440px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin: 0 auto;
 }
 .main-title {
   color: #ffffff;
@@ -172,7 +176,7 @@ background-position: center;
   height: 56px;
   border: none;
   border-radius: 4px;
-  transition  background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .order-servis-btn:hover,
 .order-servis-btn:focus {
@@ -298,7 +302,6 @@ background-position: center;
 .social-list-link:hover,
 .social-list-link:focus {
   background-color: #404bbf;
-  /* background-color: #31D0AA; */
 }
 .social-list-icon {
   fill: #f4f4fd;
@@ -355,12 +358,12 @@ background-position: center;
   background-color: #2e2f42;
   padding: 100px 0;
 }
-.page-footer-container{
+.page-footer-container {
   display: flex;
-   align-items: baseline;
+  align-items: baseline;
 }
-.logotype-footer-container{
-  margin-right: 120px
+.logotype-footer-container {
+  margin-right: 120px;
 }
 .logotype-footer {
   color: #4d5ae5;
@@ -386,11 +389,32 @@ background-position: center;
   letter-spacing: 0.02em;
   width: 264px;
 }
-.page-footer-social
-{color: #FFF;
-font-size: 16px;
-font-style: normal;
-font-weight: 500;
-line-height: 1.5;
-letter-spacing: 0.02;}
+.page-footer-social {
+  color: #fff;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  margin-bottom: 16px;
+}
+.footer-social-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+.footer-social-list-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  background-color: #4d5ae5;
+  border-radius: 50%;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.footer-social-list-link:hover,
+.footer-social-list-link:focus {
+  background-color: #31d0aa;;
 /* ============== FOOTER STYLES ============== */
